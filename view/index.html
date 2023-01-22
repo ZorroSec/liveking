@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/timezone.js"></script>
+    <title>LiveKing</title>
+</head>
+<body onload="timeZone()">
+    <header class="header">
+        <ul>
+            <li>
+                <div class="logo">
+                    <h2>
+                        LiveKing
+                    </h2>
+                </div>
+            </li>
+            <li><a href="/login">Login</a></li>
+            <li><a href="/calculator">Calculator</a></li>
+        </ul>
+    </header>
+    <br>
+    <div id="conteiner">
+        <button type="submit" id="btn">Create a Post</button>
+        
+    </div>
+    <br>
+    <div id="conteinerPost">
+        <div class="postTest">
+            <div class="userPost">
+                <div class="imgPostUser">
+                    <div id="img"></div>
+                </div>
+                <div id="titleTest">
+                    <h4>Lorem ipsum</h4>
+                </div>
+            </div>
+            <br>
+            <div class="post">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus urna ex, accumsan ut velit id, volutpat hendrerit orci. Aliquam erat volutpat. Nam dapibus volutpat arcu, quis interdum dolor. Aenean vel massa eget nisl lobortis vulputate vitae in risus. Aenean rhoncus sagittis lorem, a efficitur erat mollis vel. Maecenas laoreet varius dui, eu convallis risus consequat eget. Integer id orci nec lectus sodales iaculis hendrerit in est. Nunc consequat quam eu sem ultrices ultrices. Aliquam erat volutpat. Phasellus suscipit, purus nec maximus consectetur, turpis est dictum lacus, ut mollis ante ligula ut augue. Nulla ex dui, laoreet id imperdiet vitae, sagittis non turpis. Curabitur tristique interdum leo, non posuere sapien congue nec. Aliquam erat volutpat. Nunc scelerisque consequat libero, feugiat fermentum mi elementum eget.
+                </p>
+            </div>
+        </div>
+        
+        <div id="posts"></div>
+    </div>
+
+    <footer>
+        <h3>&copy;Zezao <span id="hour"></span></h3>
+    </footer>
+    <script src="./scripts/app.js" type="module"></script>
+</body>
+</html>

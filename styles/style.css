@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #f2f2f2;
+}
+.header{
+    background: #23abff;
+    padding: 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+ul{
+    margin: 0;
+}
+ul li{
+    list-style: none;
+    display: inline-flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+#conteiner{
+    width: 85%;
+    margin: auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0 2px rgba(0,0,0,.3);
+    text-align: center;
+}
+#conteiner#btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#conteinerPost{
+    margin: auto;
+    width: 65%;
+}
+.userPost{
+    display: flex;
+}
+#img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #232323;
+}
+.post{
+    padding: 10px;
+}
+.postTest{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+.postIndex{
+    margin-top: 10px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+#btn{
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#btn2{
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#username{
+    border: 1px solid skyblue;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+textarea{
+    margin-top: 10px;
+    border: 1px solid skyblue;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+footer{
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 3px 3px 2px rgba(0,0,0,.3);
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*calculator.html*/
+.conteiner{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+.calculator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#n1{
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+#n2{
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+#btnc{
+    margin-top: 10px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btnc1{
+    margin-right: 5px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#btnc2{
+    margin-right: 5px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#btnc3{
+    margin-right: 5px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#btnc4{
+    margin-right: 5px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+/*login.html*/
+.conteinerLogin{
+    width: 85%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+.login .loginTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .loginTitle h2{
+    border-bottom: 1px solid black;
+}
+.login .loginUsername input[type=text]{
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+.login .loginPassword input[type=password]{
+    margin-top: 10px;
+    border: 1px solid #000000;
+    background: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+}
+.login .loginBtn{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .loginUsername{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .loginPassword{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login .loginBtn #loginBtn{
+    margin-right: 5px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    outline: none;
+    padding: 10px 25px;
+    box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+    border-radius: 20px;
+    font-weight: bold;
+}
+#resu{
+    text-align: center;
+}

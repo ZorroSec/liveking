@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <title>LiveKing - calculator</title>
+    <script src="../scripts/timezone.js"></script>
+</head>
+<body onload="timeZone()">
+    <header class="header">
+        <ul>
+            <li>
+                <div class="logo">
+                    <h2>
+                        LiveKing
+                    </h2>
+                </div>
+            </li>
+            <li>
+                <a href="/">home</a>
+            </li>
+        </ul>
+    </header>
+    <div class="conteiner">
+        <div class="calculator">
+            <div class="input-n1">
+                <input type="text" name="n1" id="n1" placeholder="Number 1">
+            </div>
+            <div class="input-n2">
+                <input type="text" name="n2" id="n2" placeholder="Number 2">
+            </div>
+            <div class="btn">
+                <button id="btnc">calculate</button>
+            </div>
+        </div>
+        <br>
+        <div id="calcs">
+        </div>
+    </div>
+
+    <footer>
+        <h3>&copy;Zezao <span id="hour"></span></h3>
+    </footer>
+
+    <script src="../scripts/calculator.js"></script>i
+</body>
+</html>

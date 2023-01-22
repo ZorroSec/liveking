@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/timezone.js"></script>
+    <title>Login</title>
+</head>
+<body onload="timeZone()">
+    <header class="header">
+        <ul>
+            <li>
+                <div class="logo">
+                    <h2>
+                        LiveKing
+                    </h2>
+                </div>
+            </li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/calculator">Calculator</a></li>
+        </ul>
+    </header>
+    <section class="conteinerLogin">
+        <div class="login">
+            <div class="loginTitle">
+                <h2>Login</h2>
+            </div>
+            <div class="loginUsername">
+                <input type="text" name="username" id="inputUsername" placeholder="Username...">
+            </div>
+            <div class="loginPassword">
+                <input type="password" name="password" id="inputPassowrd" placeholder="Password...">
+            </div>
+            <div class="loginBtn">
+                <button id="loginBtn">Log in</button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </section>
+    <footer>
+        <h3>&copy;<span id="hour"></span></h3>
+    </footer>
+    <script src="../scripts/login.js"></script>
+</body>
+</html>
